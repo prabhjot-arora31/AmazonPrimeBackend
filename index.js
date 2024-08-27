@@ -1,0 +1,24 @@
+import express from "express";
+import cors from "cors";
+import morgan from "morgan";
+import dotenv from "dotenv";
+import http from "http";
+import RegisterUser from "./routes/User.js";
+import { errorHandler } from "./middleware/Errorhandler.js";
+import { connectDb } from "./db/dbConnection.js";
+import { getMovies } from "./controllers/Movies.js";
+dotenv.config();
+connectDb();
+const app = express();
+const httpServer = http.createServer(app);
+app.use(express.json());
+app.use(morgan("combined"));
+app.use(cors());
+app.use("/api", RegisterUser);
+app.use("/movies", getMovies);
+app.use(errorHandler);
+const port = process.env.PORT || 3001;
+httpServer.listen(port, () => {
+  console.log(`server listening on ${port}`);
+});
+export default app;
