@@ -6,5 +6,5 @@ import data3 from "../data/crime_movies.json" assert { type: "json" };
 import data4 from "../data/horror_movies.json" assert { type: "json" };
 import data5 from "../data/romance_movies.json" assert { type: "json" };
 export const getMovies = asynHandler(async (req, res) => {
-  res.json([data, data2, data3, data4]);
+  res.json([data, data2, data3, data4, data5]);
 });
