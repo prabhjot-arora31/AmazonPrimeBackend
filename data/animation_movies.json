@@ -5,7 +5,7 @@
     "pages": 77,
     "count": 35,
     "data": [
-      {
+   /*   {
         "imdb_id": "tt9515756",
         "Id": "1630851297",
         "Genre": "Animation",
@@ -22,7 +22,7 @@
         "Description": "Since the timeless night, on the life's plains, humanity faces the Sorcerers of Evil's indefeasible designs...",
         "Trailer": "https://www.youtube.com/watch?v=358078802",
         "movieId": 634223
-      },
+      }, */
       {
         "imdb_id": "tt5755238",
         "Id": "1630856125",
