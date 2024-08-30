@@ -5,24 +5,7 @@
     "pages": 77,
     "count": 35,
     "data": [
-   /*   {
-        "imdb_id": "tt9515756",
-        "Id": "1630851297",
-        "Genre": "Animation",
-        "Actor": "-",
-        "Director": "Raúl Koler, Emiliano Sette",
-        "Country": "Argentina, Mexico",
-        "Duration": 15,
-        "Release": "2019",
-        "Rating": 1.491,
-        "Cover": "https://img.cdno.my.id/cover/w_1200/h_500/anacronte-1630851297.jpg",
-        "Title": "Anacronte",
-        "Watch": "https://vidsrc.cc/v2/embed/movie/634223",
-        "Thumbnail": "https://img.cdno.my.id/thumb/w_200/h_300/anacronte-1630851297.jpg",
-        "Description": "Since the timeless night, on the life's plains, humanity faces the Sorcerers of Evil's indefeasible designs...",
-        "Trailer": "https://www.youtube.com/watch?v=358078802",
-        "movieId": 634223
-      }, */
+   
       {
         "imdb_id": "tt5755238",
         "Id": "1630856125",
